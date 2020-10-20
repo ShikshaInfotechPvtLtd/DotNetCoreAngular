@@ -14,7 +14,7 @@ export class ServicesComponent implements OnInit {
   }
   showTodayDate(): any {
     let dt = new Date();
-
+    console.log("today's date" + dt);
     return dt;
   }
 }
